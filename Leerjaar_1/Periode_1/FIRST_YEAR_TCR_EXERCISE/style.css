@@ -1,0 +1,86 @@
+/* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+img.left{
+  float: left;
+}
+img.right{
+  float: right;
+}
+
+h1.bovenste{
+  margin-top: 150px;
+  text-align: center;
+}
+h1{
+  margin-top: 150px;
+  text-align: center;
+}
+
+html {
+  font-size: 62.5%; 
+}
+body {
+  font-family: "Goldman", cursive;
+  margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  margin-top: auto;
+  height: 60px;
+  background-color: #00a8c7;
+  text-align: center;
+  padding: 5px;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+.header ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.header li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.header img {
+  width: 5vw;
+}
+
+.text{
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: circle;
+}
+
+.text2{
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.htext{
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
