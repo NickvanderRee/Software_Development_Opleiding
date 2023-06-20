@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-end ;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    font-size: 30px;
+  }
+
+  #box1{
+    background-color: blue;
+  }
+
+  #box2{
+    background-color: black;
+  }
+
+  #box3{
+    background-color: red;
+  }
+
+  #box4{
+    background-color: green;
+  }

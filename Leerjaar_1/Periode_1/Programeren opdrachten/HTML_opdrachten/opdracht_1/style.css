@@ -1,0 +1,33 @@
+body{background-color: rgb(2, 92, 54);
+margin: 0px;}
+
+img{
+  border-radius: 3%;
+  border: 10px solid rgb(55, 154, 55);}
+
+img {
+  
+    position: relative;
+    float: center;
+    top: -10px
+  }
+
+  /* Style the header */
+  .header {
+    background-color: rgb(55, 154, 55);
+    padding: 10px;
+  }
+ 
+  h1{color: whitesmoke;
+clear: left;}
+
+  p{text-align: left;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+color: whitesmoke;}
+
+a{text-align: right;
+  top: 5px;
+color: darkgreen;}

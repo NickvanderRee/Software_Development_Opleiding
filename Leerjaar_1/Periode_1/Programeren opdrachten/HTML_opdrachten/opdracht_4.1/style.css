@@ -1,0 +1,64 @@
+h1.n1{
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+h1.no1{
+    color: red;
+}
+
+h2{
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+
+p{
+    color: #4D4D4D; 
+}
+
+p.n1{
+    color: red;
+    font-weight: bold;
+}
+
+a{
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    color: rgb(rgb(33, 32, 41));
+}
+
+.header{
+    height: auto;
+    width: auto;
+    background-image: url(codmw2.2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+article{
+    border: solid 10px;
+    border-left: solid 15px;
+    border-radius: 2em;
+    border-color: black;
+}

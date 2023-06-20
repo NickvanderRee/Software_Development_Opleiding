@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end ;
+  }
+  
+  .flex-container > div {
+    color: #f1f1f1;
+    height: 150px;
+    width: 200px;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #box1, #box3{
+    background-color: rgb(19, 19, 40);
+    width: 25%;
+    margin: 0px;
+  }
+
+  #box2{
+    background-color: rgb(19, 19, 40);
+    width: 12,5%;
+    margin: 0px;
+  }
+
+  p{
+    margin-top: 50px;
+  }
+
+  
