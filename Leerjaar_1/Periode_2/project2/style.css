@@ -1,0 +1,553 @@
+*{
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: 'Inter';
+
+}
+
+
+
+body{
+
+  background-color:#121125;
+
+}
+
+
+
+p{
+
+  color: #665DD2;
+
+  font-size: 1.5rem;
+
+}
+
+
+
+
+ul{
+
+  display: flex;
+
+  background-color: #1B1B38;
+
+  color: #665DD2;
+
+  list-style-type: none;
+
+  height: 6rem;
+
+  top: 5%;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 2rem;
+
+  line-height: 54px;
+
+  padding-left: 2%;
+
+  text-decoration: none;
+
+  align-items: center;
+
+}
+
+
+
+a{
+
+  display: flex;
+
+  position: relative;
+
+  justify-content: space-between ;
+
+  flex-direction: row;
+
+  color: rgba(102, 93, 210, 1);;
+
+  top: 15%;
+
+  text-decoration: none;
+
+}
+
+
+
+a::after{
+
+  content: "";
+
+  height: 3px;
+
+  width: 100%;
+
+  position: absolute;
+
+  top: 60px;
+
+  background-color: #00FF66;
+
+  transform: scale(0);
+
+  transition: 0.7s ;
+
+}
+
+
+
+a:hover::after{
+
+  transform: scale(1);
+
+}
+
+
+
+.home{
+
+
+
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-left: 1cm;
+
+}
+
+
+
+h1{
+
+  position: relative;
+
+  color: #665DD2;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 45px;
+
+  margin:2.5rem ;
+
+  margin-left: 4rem;
+
+}
+
+
+
+.page-information{
+
+  display: relative;
+
+  margin-bottom: 5vh;
+
+  width: 75%;
+
+  color: #665DD2;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 45px;
+
+  margin:2.5rem ;
+
+  margin-left: 4rem;
+
+}
+
+
+
+.select-game{
+
+ 
+
+  display :flex;
+
+  width: 100%;
+
+  height: 110vh;
+
+  background-color: #0D0D13;
+
+  justify-content: center;
+
+  align-content: center;
+
+  flex-wrap: wrap;
+
+}
+
+
+
+.game1{
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-right: 12.5%;
+
+  height: 50vh;
+
+  width: 25%;
+
+  background-color: #1B1B38;
+
+  border: solid 1.5vh #00E0FF
+
+}
+
+
+
+.game2{
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-right: 5%;
+
+  height: 50vh;
+
+  width: 25%;
+
+  background-color: #1B1B38;
+
+  border: solid 1.5vh #FA00FF;
+
+}
+
+
+
+.game3{
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-top: 5vh;
+
+  margin-right: 12.5%;
+
+  height: 50vh;
+
+  width: 25%;
+
+  background-color: #1B1B38;
+
+  border: solid 1.5vh #00FF66;
+
+}
+
+
+
+.game4{
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-top: 5vh;
+
+  margin-right: 5%;
+
+  height: 50vh;
+
+  width: 25%;
+
+  background-color: #1B1B38;
+
+  border: solid 1.5vh #FF0000;
+
+}
+
+
+
+footer{
+
+  height: 15vh;
+
+  width: 100%;
+
+  background-color: #1B1B38;
+
+}
+
+
+
+button{
+
+  padding: 2vh;
+
+  background-color: #1B1B38;
+
+  border: none;
+
+  color: #665DD2;
+
+  font-weight: bold;
+
+  font-size: 2rem;
+
+}
+
+
+
+/*Vanaf hier is de CSS van de portfolio van Nick*/
+
+
+
+.view-project{
+
+  display :flex;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  height: auto;
+
+  padding-top: 5vh;
+
+  padding-bottom: 15vh;
+
+  background-color: #0D0D13;
+
+}
+
+
+
+.project1{
+
+  border: solid 1vh #00E0FF;
+
+  margin-left: 4%;
+
+  width: 80%;
+
+  height: 16.9vh;
+
+  background-color: #1B1B38;
+
+}
+
+
+
+.project2{
+
+  border: solid 1vh #FF0000;
+
+  margin-top: 5vh;
+
+  margin-left: 4%;
+
+  width: 80%;
+
+  height: 16.9vh;
+
+  background-color: #1B1B38;
+
+}
+
+
+
+.image{
+
+  width: 10%;
+
+  height: 15vh;
+
+  background-color: #ffffff;
+
+}
+
+
+
+.page-information2{
+
+  text-align: center;
+
+  align-self: center;
+
+  display: relative;
+
+  width: 100%;
+
+  color: #665DD2;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 45px;
+
+}
+
+
+
+button.gamespelen{
+
+  text-decoration: underline;
+
+  align-self: center;
+
+  background-color: #121125;
+
+}
+
+button.gamespelen:hover{
+
+  cursor: pointer;
+
+  background-color: #1B1B38;
+
+}
+
+
+
+/*hier begint de css van favoriete games*/
+
+.game-images{
+
+  display: flex;
+
+  flex-direction: row;
+
+}
+
+
+
+.game-image{
+
+  height: 30vh;
+
+  width: 25%;
+
+}
+
+
+
+.released
+
+{
+
+  padding-left: 5%;
+
+  text-align: left;
+
+  margin-bottom: 5vh;
+
+  display: relative;
+
+  width: 100%;
+
+  color: #665DD2;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 30px;
+
+  padding-top: 5vh;
+
+  padding-bottom: 5vh;
+
+  background-color: #0D0D13;
+
+}
+
+
+
+.story{
+
+  text-align: left;
+
+  margin-left: 5%;
+
+  margin-top: 5vh;
+
+  margin-bottom: 5vh;
+
+  display: relative;
+
+  width: 90%;
+
+  color: #665DD2;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 20px;
+
+}
+
+
+
+.mening
+
+{
+
+  text-align: left;
+
+  padding: 5%;
+
+  display: relative;
+
+  width: 100%;
+
+  color: #665DD2;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 20px;
+
+  background-color: #0D0D13;
+
+}
+
+.image1{
+  display: flex;
+  height: 4cm;
+  margin-left: 1cm;
+}
+.image2{
+  display: flex;
+  height: 4cm;
+  margin-top: 1cm;
+  margin-left: 1cm;
+}
+
+.PPPD{
+  display: flex;
+  background-color: #1B1B38;
+  justify-content: center;
+}
+.PEP{
+  margin-left: 1cm;
+}
